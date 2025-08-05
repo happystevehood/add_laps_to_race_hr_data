@@ -1,4 +1,4 @@
-#in VSCode 
+#in my VSCode 
 #activate C:\Users\Steph\miniconda3
 #python add_laps_to_race_hr_data.py
 
@@ -16,38 +16,37 @@ plt.style.use('seaborn-v0_8-whitegrid')
 
 print("Libraries imported successfully.")
 
-
 # --- User Configuration ---
 
 # Define the names of your subdirectories
-#input_dir = 'Steve'
-#output_dir = 'Steve'
+input_dir = 'data/Steve'
+output_dir = 'data/Steve'
 
 # Define the paths to your data files
-#hr_zone_file = 'Steve_HR_Zones.csv'
+hr_zone_file = 'Steve_HR_Zones.csv'
 
-#lap_file_to_process  = 'Steve_Redline_2025_duration.csv'
+lap_file_to_process  = 'Steve_Redline_2025_duration.csv'
 #lap_file_to_process  = 'Steve_Redline_2025_cumulative.csv'
 #lap_file_to_process  = 'Steve_Redline_2025_cumulative_test.csv'
 
 # This would be the path to your actual .fit file from your watch
-#fit_file_path = 'RedlineFitnessGames_20250726115048.fit'
+fit_file_path = 'RedlineFitnessGames_20250726115048.fit'
 
 # Define the names of your subdirectories
-input_dir = 'data/Dennis'
-output_dir = 'data/Dennis'
+#input_dir = 'data/Donal'
+#output_dir = 'data/Donal'
 
-# Dennis's files
-hr_zone_file = 'Dennis_HR_Zones.csv'
+# Donal's files
+#hr_zone_file = 'Donal.csv'
 
-#lap_file_to_process  = 'Redline_Singles_Intermediate_5th_Place_40_AG_cumulative.csv'
-#fit_file_path = 'Redline_Singles_Intermediate_5th_Place_40_AG.fit'
+#lap_file_to_process  = 'Redline_Singles_Intermediate.csv'
+#fit_file_path = 'Redline_Singles_Intermediate.fit'
 
-#lap_file_to_process  = 'Redline_Mens_Doubles_with_Jason_14th_Overall.csv'
-#fit_file_path = 'Redline_Mens_Doubles_with_Jason_14th_Overall.fit'
+#lap_file_to_process  = 'Redline_Mens_Doubles.csv'
+#fit_file_path = 'Redline_Mens_Doubles.fit'
 
-lap_file_to_process  = 'Redline_Mixed_Doubles_with_Dee_Lyn_16th_Overall.csv'
-fit_file_path = 'Redline_Mixed_Doubles_with_Dee_Lyn_16th_Overall.fit'
+#lap_file_to_process  = 'Redline_Mixed_Doubles.csv'
+#fit_file_path = 'Redline_Mixed_Doubles.fit'
 
 # --- Construct full paths ---
 # This uses os.path.join to create correct paths for any operating system
