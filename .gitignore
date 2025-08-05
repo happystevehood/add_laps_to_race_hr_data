@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Output files - you want to generate these, not store them in git
+*.png
+*.jpg
+*.svg
+*.html
